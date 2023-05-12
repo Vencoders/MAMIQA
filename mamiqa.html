@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <link rel="icon" type="image/x-icon" href="images/YH.png" />
+  <title>hfcgcnn</title>
+  <!--Import Google Icon Font-->
+
+  <!--<link href="http://fonts.useso.com/icon?family=Material+Icons" rel="stylesheet">-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/main.css">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <style>
+    body
+    {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    .vertical-nav
+    {
+      margin: 0;
+      position: fixed;
+      width: 300px;
+      /*background-color: #343131;*/
+      min-height: 100%;
+      background-image: url("images/vertical_Nov19.jpg");
+      background-repeat: round;
+    }
+
+    .profile-block
+    {
+      position: relative;
+      height: 300px;
+      /*background-color: #324D5C;*/
+
+    }
+    .profile-block-sm
+    {
+      position: relative;
+      height: 200px;
+      /*background-color: #324D5C;*/
+
+    }
+
+    .profile
+    {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      border-radius: 50%;
+      margin-left: 30px;
+
+      border: solid 5px #F4D03F;
+    }
+
+    .profile-sm
+    {
+      /*position: absolute;*/
+      /*top: 50%;*/
+      /*left: 50%;*/
+      /*transform: translateX(50%);*/
+      border-radius: 50%;
+      margin: auto;
+
+      border: solid 5px #F4D03F;
+    }
+
+    .logo-link
+    {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .card-content
+    {
+      padding: 0 !important;
+    }
+
+    .card-title
+    {
+      background-color: #FBD8B0;
+      padding: 12px;
+    }
+
+    p
+    {
+      line-height: 150%;
+    }
+    li
+    {
+      padding-bottom: 10px;
+    }
+    strong
+    {
+      font-weight: bolder;
+    }
+    .project-item
+    {
+    }
+    .project-logo
+    {
+    }
+    .authors{
+      text-align: center;
+      width: 100%;
+      margin: auto;
+      font-size: 12pt;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .author{
+      font-weight: bold;
+      display: inline;
+      padding: 0 1em;
+    }
+    h3{
+      font-size: xx-large;
+      display: block;
+      /*font-size: 1.5em;*/
+      margin-block-start: 0.83em;
+      margin-block-end: 0.83em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+    }
+    .bibtex {
+      padding-left: 20px;
+      font-family: Courier New, Courier, 'gandhi_sansregular', monospace;
+      white-space: pre;
+    }
+    ul.marked {list-style-type: circle !important;}
+    ul li::marker {
+      color: darkslategrey;
+      font-size: 1.5em;
+    }
+  </style>
+</head>
+<body>
+
+<div class="">
+  <div style="">
+    <div class="container">
+      <div class="">
+        <div class="row">
+          <div class="col s12 m12 l10 offset-l1">
+            <div class="title">
+              <h2 class="center" style="margin-top: 120px; font-size: 32pt">
+                MAMIQA: No-Reference Image Quality Assessment based on Multiscale Attention Mechanism with Natural Scene Statistics
+              </h2>
+              <!-- <p class="center" style="font-size: large"><a href="https://arxiv.org/abs/2002.03711">[ arxiv.org/abs/2002.03711 ]</a> -->
+                <p class="center" style="font-size: large"><a href="https://github.com/Vencoders/MAMIQA">[ Code ]</a>
+            </div>
+           <div class="authors">
+<!-- 			  <div class="author"><a href="https://huzi96.github.io/">Yueyu Hu</a></div><br class="hide-on-med-and-up"> -->
+              <div class="author">Li Yu</a></div><br class="hide-on-med-and-up">
+              <div class="author">Junyang Li</a></div><br class="hide-on-med-and-up">
+              <div class="author">Farhad Pakdaman</a></div><br class="hide-on-med-and-up">
+              <div class="author">Miaogen Ling</a></div><br class="hide-on-med-and-up">
+			  <div class="author">Moncef Gabbouj</a></div><br class="hide-on-med-and-up">
+            </div>
+			<div class="abstract">
+			  <h3 class="center">Abstract</h3>
+			  <ul style="font-size: 13pt; text-align: justify">
+			    <li>
+			      <div>
+			        <i class="material-icons tiny cyan-text">grade</i>
+			        No-Reference Image Quality Assessment aims to evaluate the perceptual quality of an image, according to human perception. Many recent studies use Transformers to assign different self-attention mechanisms to distinguish regions of an image, simulating the perception of the human visual system (HVS). However, the quadratic computational complexity caused by the self-attention mechanism is time-consuming and expensive. Meanwhile, the image resizing in the feature extraction stage loses the full-size image quality. To address these issues, we propose a lightweight attention mechanism using decomposed large-kernel convolutions to extract multiscale features, and a novel feature enhancement module to simulate HVS. We also propose to compensate the information loss caused by image resizing, with supplementary features from natural scene statistics. Experimental results on five standard datasets show that the proposed method surpasses the SOTA, while significantly reducing the computational costs.
+			      </div>
+			        </li>
+			  </ul>
+			</div>
+            <!-- <div class="abstract">
+              <h3 class="center">Highlights</h3>
+              <ul style="font-size: 13pt; text-align: justify">
+                <li>
+                  <div>
+                    <i class="material-icons tiny cyan-text">grade</i>
+                    We introduce reference-based SR in down/up-sampling based video coding method, where target and reference images are not required to be texture-aligned as required in existing methods.
+                  </div>
+                    </li>
+                <li>
+                  <div>
+                    <i class="material-icons tiny  cyan-text">grade</i>
+                    We proposed an adaptive group of pictures (GOP) method to automatically decide the adaptive sampling scheme.
+                  </div>
+                    </li>
+                <li>
+                  <div>
+                    <i class="material-icons tiny  cyan-text">grade</i>
+                   The neural texture transfer model for reference-based SR produces realistic up-sampled frame at the decoding end.
+                  </div>
+                     </li>
+              </ul>
+            </div> -->
+            <div class="experiment">
+
+              <div class="row">
+                <h3 class="center">Network Architecture</h3>
+                <div class="col l12 m12 s12">
+                  <img src="images/mamiqa1.png" class="responsive-img">
+                </div>
+
+                <div class="col l12 m12 s12">
+                  <p style="text-align: justify"><i class="material-icons tiny cyan-text">grade</i> Framework of the proposed MAMIQA. (a) In the multiscale attention branch, the image is first fed into the multiscale attention module, then features are enhanced in feature enhancement module. (b) In the NSS branch, the features of the original size image are extracted, and then sent to a two-layer fully connected layer. (c) Finally, the features extracted from the two branches are sent to MLP head for feature fusion and prediction of the final quality score. 
+                  </p>
+                </div>
+              </div>
+			  
+             <div class="row">
+                <h3 class="center">Results</h3>
+                <div class="col l6 offset-l3 m8 offset-m2 s10 offset-s1">
+                  <img src="images/mamiqa2.png" class="responsive-img">
+				  <img src="images/mamiqa3.png" class="responsive-img">
+                </div>
+			
+			
+				  
+              <div class="row">
+                <div class="col l12 m12 s12">
+                  <p><strong>Please check our paper for detail results.</strong></p>
+                </div>
+              </div>
+            </div>
+
+              <div class="row">
+				  <h3 class="center">Citation</h3>
+                <div class="col l12 m12 s12">
+                  <p>
+					@inproceedings{111,<br>
+					  <!-- &nbsp;title={MAMIQA: No-Reference Image Quality Assessment based on Multiscale Attention Mechanism with Natural Scene Statistics},<br>
+					  &nbsp;author={Yu, Li and Li, Junyang and Pakdaman,Farhad and Ling,Miaogen and Gabbouj, Moncef},<br>
+					  &nbsp;booktitle={111},<br>
+					  &nbsp;pages={1--5},<br> -->
+					  &nbsp;year={2023},<br>
+					  &nbsp;organization={IEEE}<br>
+					}
+                 </p>
+                </div>
+              </div>
+            </div>
+
+            
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
