@@ -39,7 +39,7 @@ Some available options:
 
 ## Models
 
-link：https://pan.baidu.com/s/1Bb_0T_Aq60OBaRsUK4qWLg?pwd=qnvu
+link：https://pan.baidu.com/s/19Wwxl6_i9iF2-ZBp3sFV9g?pwd=i9iz
 
 ## **Acknowledgement**
 
