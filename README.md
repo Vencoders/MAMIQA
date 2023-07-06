@@ -37,6 +37,10 @@ Some available options:
 - `--gpunum`: the id for the gpu that will be used.
 - `--svpath`: the path to save the info.
 
+## Models
+
+link：https://pan.baidu.com/s/1Bb_0T_Aq60OBaRsUK4qWLg?pwd=qnvu
+
 ## **Acknowledgement**
 
 The code of this work is adapted from **[Visual Attention Network (VAN)](https://github.com/Visual-Attention-Network/VAN-Classification/tree/main) and [TReS](https://github.com/isalirezag/TReS). Thanks for their authors.**
