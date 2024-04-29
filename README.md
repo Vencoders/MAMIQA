@@ -1,8 +1,9 @@
 # MAMIQA
 
-This repository contains the implementation for the paper: 
+This repository contains the implementation for the paper "MAMIQA: No-Reference Image Quality Assessment based on Multiscale Attention Mechanism with Natural Scene Statistics", published in IEEE SPL, 2023. 
 
-MAMIQA: No-Reference Image Quality Assessment based on Multiscale Attention Mechanism with Natural Scene Statistics
+## Paper
+The paper is available on [IEEEXplore](https://ieeexplore.ieee.org/abstract/document/10124974) as Open Access. A preprint is available [here](https://trepo.tuni.fi/handle/10024/151112).
 
 ## **Environment**
 
