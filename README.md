@@ -46,6 +46,9 @@ Another mirror link is available on：https://pan.baidu.com/s/19Wwxl6_i9iF2-ZBp3
 
 The code of this work is adapted from **[Visual Attention Network (VAN)](https://github.com/Visual-Attention-Network/VAN-Classification/tree/main) and [TReS](https://github.com/isalirezag/TReS). Thanks for their authors.**
 
+## Project information
+This repository is associated with Work Package 1 (WP1) of the project [FALCON](https://www.tuni.fi/en/research/falcon). This project has received funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No 101022466.
+
 ## Authors
 
 Li Yu (mailofyuli@126.com)
