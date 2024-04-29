@@ -44,3 +44,15 @@ link：https://pan.baidu.com/s/19Wwxl6_i9iF2-ZBp3sFV9g?pwd=i9iz
 ## **Acknowledgement**
 
 The code of this work is adapted from **[Visual Attention Network (VAN)](https://github.com/Visual-Attention-Network/VAN-Classification/tree/main) and [TReS](https://github.com/isalirezag/TReS). Thanks for their authors.**
+
+## Authors
+
+Li Yu (mailofyuli@126.com)
+
+Junyang Li (20211249427@nuist.edu.cn)
+
+Farhad Pakdaman (farhad.pakdaman@gmail.com)
+
+Miaogen Ling (mgling@nuist.edu.cn)
+
+Moncef Gabbouj (moncef.gabbouj@tuni.fi)
