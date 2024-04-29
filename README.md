@@ -55,7 +55,7 @@ Li Yu (mailofyuli@126.com)
 
 Junyang Li (20211249427@nuist.edu.cn)
 
-Farhad Pakdaman (farhad.pakdaman@gmail.com)
+Farhad Pakdaman (farhad.pakdaman@tuni.fi)
 
 Miaogen Ling (mgling@nuist.edu.cn)
 
