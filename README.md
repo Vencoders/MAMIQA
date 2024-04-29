@@ -38,8 +38,8 @@ Some available options:
 - `--svpath`: the path to save the info.
 
 ## Models
-
-link：https://pan.baidu.com/s/19Wwxl6_i9iF2-ZBp3sFV9g?pwd=i9iz
+Pre-trained models can be [downloaded](https://zenodo.org/records/11086687/files/FALCON_IEEESPL2023_WP1.zip?download=1) through [Zenodo repository](https://zenodo.org/records/11086687).
+Another mirror link is available on：https://pan.baidu.com/s/19Wwxl6_i9iF2-ZBp3sFV9g?pwd=i9iz
 
 ## **Acknowledgement**
 
